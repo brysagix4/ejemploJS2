@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    
+    let ejercicio = prompt("Seleccione el ejercicio a revisar:"+"1. Numero par 4. Numero aleatorio");
+
+    if(ejercicio==1){
+    
+    let numero = prompt("por favor ingrese el numero "); 
+    if(numero % 2 == 0){
+      document.write("El numero ",numero," es par" );
+    }else{
+        document.write("El numero es",numero," Impar ");
+    }
+
+   }   
+    else if(ejercicio==4){
+
+   let numeroAleatorio = Math.random();
+   document.write(numeroAleatorio*10);
+    }
+    
+
+    else {
+   document.write("Seleccion invalida");
+    }   
+
+</script>
+
+<body>
+
+</body>
+
+</html>
